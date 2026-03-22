@@ -7,7 +7,9 @@ src-tauri/target/
 target/
 *.rs.bk
 *.exe
+!downloads/*.exe
 *.msi
+!downloads/*.msi
 *.dmg
 *.AppImage
 *.deb
