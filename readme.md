@@ -14,6 +14,17 @@ Perfect for presentations, lending your laptop to a friend, or keeping children 
 
 ---
 
+## ⚡ Download & Run Now (No setup required!)
+
+If you just want to use the application without dealing with code, you can download the ready-to-use version directly from the repository!
+
+1. Open the [downloads/](downloads/) folder in this repository.
+2. Click on **`securelock_windows.exe`**.
+3. Click the "Download raw file" button on the right side of the screen.
+4. Double-click the file on your computer to instantly launch SecureLock!
+
+---
+
 ## 👩‍💻 How To Use It
 
 1. **Launch the App**: Open SecureLock. You will see a grid of all the windows you currently have open on your computer.
