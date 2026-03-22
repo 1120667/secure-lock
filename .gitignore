@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Tauri & Rust Build Outputs
+src-tauri/target/
+target/
+*.rs.bk
+*.exe
+*.msi
+*.dmg
+*.AppImage
+*.deb
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary Files
+tmp/
+temp/
+
+# Internal AI Development / Planning Files
+agent-rules.md
+agent-workflow.md
+agent.md
+roadmap.md
+security.md
+architecture.md
