@@ -126,11 +126,7 @@ unsafe extern "system" fn keyboard_hook_proc(
                 return LRESULT(1);
             }
 
-            // Block Alt+Tab
-            if vk == VK_TAB.0 as u32 && is_alt_down(flags) {
-                log::debug!("Blocked Alt+Tab");
-                return LRESULT(1);
-            }
+            // ALLOW Alt+Tab for Multi-App switching (DO NOT BLOCK)
 
             // Block Alt+F4
             if vk == VK_F4.0 as u32 && is_alt_down(flags) {
